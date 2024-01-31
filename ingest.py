@@ -5,8 +5,8 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
 
 
-DATA_PATH=r"C:CPUMedicalChatbot-main\data"
-DB_FAISS_PATH=r"C:vectorestores\db_faiss"
+DATA_PATH=r"C:\Users\Niama Maghrane\Desktop\New folder\CPUMedicalChatbot\data"
+DB_FAISS_PATH=r"C:\Users\Niama Maghrane\Desktop\New folder\CPUMedicalChatbot\vectorestores\db_faiss"
 
 def create_vector_db():
     loader = DirectoryLoader(DATA_PATH, glob='*.pdf', loader_cls=PyPDFLoader)

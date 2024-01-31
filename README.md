@@ -1,7 +1,7 @@
 # CPUMedicalChatbot
 
 ## Overview
-The CPUMedicalChatbot is an advanced Medical Chatbot developed using leading open-source technologies. It incorporates Sentence Transformers for embedding generation, Faiss CPU for efficient vector storage, and integrates the expansive Llama 2 language model via the Chainlit library to create an interactive conversational interface. The chatbot's knowledge base is powered by the comprehensive five volumes of the Gale Encyclopedia of Medicine.
+The CPUMedicalChatbot is an advanced Medical Chatbot developed using leading open-source technologies. It incorporates Sentence Transformers for embedding generation, Faiss CPU for efficient vector storage, and integrates the expansive Openchat llm model via the Chainlit library to create an interactive conversational interface. The chatbot's knowledge base is powered by the comprehensive five volumes of the Gale Encyclopedia of Medicine.
 
 ## Setup Instructions
 
@@ -38,9 +38,9 @@ Ensure your system is equipped with the following:
      ```
 
 After completing these steps, you'll be ready to start using the Langchain Medical Bot.
-# MedicalChatbotCPU
+
 ## Usage
-To use the Llama2 Chatbot, ensure that the required data sources are available in the specified 'data' directory. This data can be in the file format of pdf, txt, or xlsx. Run the `ingest.py` script first to process the data and create the vector database. Once the database is ready, open Git Bash within your folder, and input/execute the following: `chainlit run model.py -w` to start the chatbot and interact with your files.
+To use the Openchat llm model Chatbot, ensure that the required data sources are available in the specified 'data' directory. This data can be in the file format of pdf, txt, or xlsx. Run the `ingest.py` script first to process the data and create the vector database. Once the database is ready, open Git Bash within your folder, and input/execute the following: `chainlit run model.py -w` to start the chatbot and interact with your files.
 
 ![CPUMedicalChatbot Interface](images/Architecture.png)
-# MedicalChatbotCPU
+# medicalChatbot_OpenchatLLM
